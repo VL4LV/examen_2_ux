@@ -94,3 +94,7 @@ exports.logIn = async (req, res) => {
     res.status(500).json({ mensaje: 'Error al iniciar sesión', error: error.message });
   }
 };
+
+exports.logOut = async (req, res) => {
+  res.status(200).json({ mensaje: "Que tengas un excelente dia, byee" });
+};

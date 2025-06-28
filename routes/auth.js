@@ -10,7 +10,7 @@ router.get('/ping', (req, res) => {
 
 router.post('/createUser', authController.createUser);
 router.post('/logIn', authController.logIn);
-router.post('/logout', authController.logOut);
+router.post('/logOut', authController.logOut);
 
 module.exports = router;
 
